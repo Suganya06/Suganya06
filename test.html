@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tooltip Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="custom.css" />
+</head>
+
+<body onload="getDropDown()">
+    <table>
+        <tr>
+            <td>
+                <div class="tooltip-control">
+                    <div>postal code <span>test</span></div>
+                    <div class="tooltip-content">
+                        <img src="tooltip-icon.png" class="tooltip-icon text-wrap" id="Img_id" alt=""
+                            onmouseover="ShowTooltip()" />
+                        <div id="tooltip">
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td> <select id="option"></select></td>
+        </tr>
+    </table>
+    <script src="Tooltip.js"></script>
+    <script type="text/javascript" src="Tooltip.json"></script>
+</body>
+
+</html>
